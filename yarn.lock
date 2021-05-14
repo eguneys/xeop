@@ -9,17 +9,17 @@
   dependencies:
     "@babel/highlight" "^7.12.13"
 
-"@babel/helper-validator-identifier@^7.12.11":
-  version "7.12.11"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.12.11.tgz#c9a1f021917dcb5ccf0d4e453e399022981fc9ed"
-  integrity sha512-np/lG3uARFybkoHokJUmf1QfEvRVCPbmQeUQpKow5cQ3xWrV9i3rUHodKDJPQfTVX61qKi+UdYk8kik84n7XOw==
+"@babel/helper-validator-identifier@^7.14.0":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.14.0.tgz#d26cad8a47c65286b15df1547319a5d0bcf27288"
+  integrity sha512-V3ts7zMSu5lfiwWDVWzRDGIN+lnCEUdaXgtVHJgLb1rGaA6jMrtB9EmE7L18foXJIE8Un/A/h6NJfGQp/e1J4A==
 
 "@babel/highlight@^7.12.13":
-  version "7.13.10"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.13.10.tgz#a8b2a66148f5b27d666b15d81774347a731d52d1"
-  integrity sha512-5aPpe5XQPzflQrFwL1/QoeHkP2MsA4JCntcXHRhEsdsfPVkvPi2w7Qix4iV7t5S/oC9OodGrggd8aco1g3SZFg==
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.14.0.tgz#3197e375711ef6bf834e67d0daec88e4f46113cf"
+  integrity sha512-YSCOwxvTYEIMSGaBQb5kDDsCopDdiUGsqpatp3fOlI4+2HQSkTmEVWnVuySdAC5EWCqSWWTv0ib63RjR7dTBdg==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.12.11"
+    "@babel/helper-validator-identifier" "^7.14.0"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
@@ -64,9 +64,9 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@*":
-  version "14.14.41"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
-  integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
+  version "15.0.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.0.3.tgz#ee09fcaac513576474c327da5818d421b98db88a"
+  integrity sha512-/WbxFeBU+0F79z9RdEOXH4CsDga+ibi5M8uEYr91u3CkT/pdWcV8MCook+4wDPnZBexRdwWS+PiVZ2xJviAzcQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1465,16 +1465,16 @@ onetime@^5.1.0:
     mimic-fn "^2.1.0"
 
 oper@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.0.tgz#0945af4674afff8bb468f7b0d1d5fb7e02f405cb"
-  integrity sha512-pU8U4amVH0AB1t9pQiOUlW5XMi69AcueDK9qT9PK/chBPUkyiu8w6lbngn8o5KSb1rJBnSI0B//Qb8ktVzHAgQ==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.1.tgz#4b4380705d73218481201cc22fc318a73315e4ea"
+  integrity sha512-P6PtcI8JLCTvgneoTJZ7/+y/mBmA53ukWsqzN912lTRy6Ku8lCBiqmK6wxx0ot81bbWC1u5YCkGD8LdnzgXgyA==
   dependencies:
     apil "^1.0.0"
     esrar "^1.0.0"
     movil "^1.0.0"
     pampu "^1.0.0"
     tobil "^1.0.1"
-    tschess "^1.1.2"
+    tschess "^1.1.3"
 
 ora@^5.2.0:
   version "5.4.0"
@@ -2148,10 +2148,10 @@ tsc-watch@^4.2.9:
     string-argv "^0.1.1"
     strip-ansi "^6.0.0"
 
-tschess@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/tschess/-/tschess-1.1.2.tgz#5710afb78128d49550eb611c4ba494efcb7d9330"
-  integrity sha512-3DP3F6OF6KpvhpA/tIKDmNH6c6fpYumv1gn5YwUJFArV3LNvDWl0SrBAVM+IcU77sZ5we0QLDHhkKgicfjaxEA==
+tschess@^1.1.2, tschess@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/tschess/-/tschess-1.1.3.tgz#21b2f81d45e46f47c707ee9e42efc8d57cc83058"
+  integrity sha512-HR9iPOUdu8vzG86+RG7BoGKJCW8mzM5w/E5jPU6xQ/TA6YUQX77Q61xShIUJxp93JoUOcYC06y7/Iu9ip5cCOw==
 
 type-fest@^0.13.1:
   version "0.13.1"
