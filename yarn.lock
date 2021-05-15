@@ -740,9 +740,9 @@ esra@^1.0.1:
     tamcher "^1.1.1"
 
 esrar@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.0.2.tgz#712873e195ba8c6e9de9863322c797ae8ca7a08b"
-  integrity sha512-l3V6z/XDXiEFhcyldTjku2yYfcgex2oa2QVbKO/NOwsg2PglrDHCeUubrcVWpNnT5JUAbWgyRkEGt4gFYeTvUw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.0.3.tgz#9f1259cf09c46ba857ab19d7e399de25fc430093"
+  integrity sha512-MsgRbaMKWB7pl3U0FO9TNaQ+K15Vtmw4EvezqWOXj2qQt+TSpjyZX3FLwgM9T8sd+Slk76e/qKKXCtugJuVTTA==
   dependencies:
     esra "^1.0.1"
     tschess "^1.1.3"
@@ -1465,9 +1465,9 @@ onetime@^5.1.0:
     mimic-fn "^2.1.0"
 
 oper@^1.0.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.2.tgz#35f29cdb08340c804f7324c94fabd495d55dc4b3"
-  integrity sha512-WMrf3mwsc3WVgJKKMy5IDbqynGvftqTWA0qFCBaOG24jcWoIDBtGgMeIttR7e2AS+UKepfS5rFVndTErFQ6hbw==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.3.tgz#0064c2646a17c79f3aba14631c64fdfec19c8db5"
+  integrity sha512-2jpLY4sQuEg/taGN/UXAVuf8j6p72mANJ5vYeEghRSy0pZeKjPpoHXseQpU3pQ5hr46NC126pVqrkrrB7h+EpQ==
   dependencies:
     apil "^1.0.0"
     esrar "^1.0.0"
