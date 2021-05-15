@@ -64,9 +64,9 @@
     defer-to-connect "^1.0.1"
 
 "@types/node@*":
-  version "15.0.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.0.3.tgz#ee09fcaac513576474c327da5818d421b98db88a"
-  integrity sha512-/WbxFeBU+0F79z9RdEOXH4CsDga+ibi5M8uEYr91u3CkT/pdWcV8MCook+4wDPnZBexRdwWS+PiVZ2xJviAzcQ==
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
+  integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -731,7 +731,7 @@ esprima@^4.0.0:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-esra@^1.0.0:
+esra@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/esra/-/esra-1.0.1.tgz#edd217a3276513b657aefc893e49cd365b342a36"
   integrity sha512-qqWtEbnrg0XOZ+IFsT692Gl38xBjzoM62uIHZIp9DI8iLEGGrXd0XdVi1QuDY/nIVPENOSBHDTi7HdCiDQ5mvw==
@@ -740,12 +740,12 @@ esra@^1.0.0:
     tamcher "^1.1.1"
 
 esrar@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.0.1.tgz#720bda8a428fc02f0610a23c1902a4cbf26e75d1"
-  integrity sha512-69942IN9Qdv1tgHgr/lWd3OP7AvTLUiiKkMm2+/EpNyANo8lzrJdPQnHqaIBAjIYcrfMtUB0BI86nBtsYA7Jqg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.0.2.tgz#712873e195ba8c6e9de9863322c797ae8ca7a08b"
+  integrity sha512-l3V6z/XDXiEFhcyldTjku2yYfcgex2oa2QVbKO/NOwsg2PglrDHCeUubrcVWpNnT5JUAbWgyRkEGt4gFYeTvUw==
   dependencies:
-    esra "^1.0.0"
-    tschess "^1.1.2"
+    esra "^1.0.1"
+    tschess "^1.1.3"
 
 estree-walker@^0.6.1:
   version "0.6.1"
@@ -1465,9 +1465,9 @@ onetime@^5.1.0:
     mimic-fn "^2.1.0"
 
 oper@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.1.tgz#4b4380705d73218481201cc22fc318a73315e4ea"
-  integrity sha512-P6PtcI8JLCTvgneoTJZ7/+y/mBmA53ukWsqzN912lTRy6Ku8lCBiqmK6wxx0ot81bbWC1u5YCkGD8LdnzgXgyA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.2.tgz#35f29cdb08340c804f7324c94fabd495d55dc4b3"
+  integrity sha512-WMrf3mwsc3WVgJKKMy5IDbqynGvftqTWA0qFCBaOG24jcWoIDBtGgMeIttR7e2AS+UKepfS5rFVndTErFQ6hbw==
   dependencies:
     apil "^1.0.0"
     esrar "^1.0.0"
@@ -2148,10 +2148,10 @@ tsc-watch@^4.2.9:
     string-argv "^0.1.1"
     strip-ansi "^6.0.0"
 
-tschess@^1.1.2, tschess@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/tschess/-/tschess-1.1.3.tgz#21b2f81d45e46f47c707ee9e42efc8d57cc83058"
-  integrity sha512-HR9iPOUdu8vzG86+RG7BoGKJCW8mzM5w/E5jPU6xQ/TA6YUQX77Q61xShIUJxp93JoUOcYC06y7/Iu9ip5cCOw==
+tschess@^1.1.3:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/tschess/-/tschess-1.1.4.tgz#f96830036a260e58c026714c1d8ac49da31b0b98"
+  integrity sha512-0Lgfd0eSnW2RXliplUHEq+UNl4br1lom9iwyjSvc1kIpPEPksK+YmtRUKAfzcNPd4smOHXDNavjge5+INr61gQ==
 
 type-fest@^0.13.1:
   version "0.13.1"
