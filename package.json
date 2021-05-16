@@ -20,6 +20,6 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "oper": "^1.0.0"
+    "oper": "^1.2.6"
   }
 }

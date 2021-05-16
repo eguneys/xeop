@@ -376,6 +376,11 @@ chalk@^4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chesst@^2.0.0, chesst@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/chesst/-/chesst-2.0.1.tgz#7178f1aa0539933eb9e30cfeea460526c020de2e"
+  integrity sha512-mIwrYvSoP1OzmLoZIFhCF+QiHhLaQHWU2tsMK2ZvfLgF1HMWFBu78x98UrUhzUGEWjeJZ335Q5tD73IpIPqrgw==
+
 chokidar@^3.4.3:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.1.tgz#ee9ce7bbebd2b79f49f304799d5468e31e14e68a"
@@ -739,13 +744,13 @@ esra@^1.0.1:
     sfilg "^1.0.0"
     tamcher "^1.1.1"
 
-esrar@^1.0.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.0.3.tgz#9f1259cf09c46ba857ab19d7e399de25fc430093"
-  integrity sha512-MsgRbaMKWB7pl3U0FO9TNaQ+K15Vtmw4EvezqWOXj2qQt+TSpjyZX3FLwgM9T8sd+Slk76e/qKKXCtugJuVTTA==
+esrar@^1.0.4:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/esrar/-/esrar-1.2.1.tgz#75384a44cebc15713c01950179835f088593ce99"
+  integrity sha512-Z8QdM0W0LQmQPxCF40TeVdu3msslR2F7l7ZJEcj+ahH1XfYc/8cvgbL5nbr2kx1+5iICHyj9zcFP+i9KPV9DBw==
   dependencies:
+    chesst "^2.0.0"
     esra "^1.0.1"
-    tschess "^1.1.3"
 
 estree-walker@^0.6.1:
   version "0.6.1"
@@ -1464,17 +1469,17 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
-oper@^1.0.0:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/oper/-/oper-1.2.3.tgz#0064c2646a17c79f3aba14631c64fdfec19c8db5"
-  integrity sha512-2jpLY4sQuEg/taGN/UXAVuf8j6p72mANJ5vYeEghRSy0pZeKjPpoHXseQpU3pQ5hr46NC126pVqrkrrB7h+EpQ==
+oper@^1.2.6:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/oper/-/oper-1.3.0.tgz#9b72571be92730ac8a3034282eaebf052d40cf53"
+  integrity sha512-pLuwVUVBNB8go/V8MwHy4BmsOKy6Yyp5ll+Z7THkpzsQNWx4rCl7TzztGgJxBDNxnS4QMvvPGtJ6SZLeV/4qpw==
   dependencies:
     apil "^1.0.0"
-    esrar "^1.0.0"
+    chesst "^2.0.1"
+    esrar "^1.0.4"
     movil "^1.0.0"
     pampu "^1.0.0"
     tobil "^1.0.1"
-    tschess "^1.1.3"
 
 ora@^5.2.0:
   version "5.4.0"
@@ -2147,11 +2152,6 @@ tsc-watch@^4.2.9:
     ps-tree "^1.2.0"
     string-argv "^0.1.1"
     strip-ansi "^6.0.0"
-
-tschess@^1.1.3:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/tschess/-/tschess-1.1.4.tgz#f96830036a260e58c026714c1d8ac49da31b0b98"
-  integrity sha512-0Lgfd0eSnW2RXliplUHEq+UNl4br1lom9iwyjSvc1kIpPEPksK+YmtRUKAfzcNPd4smOHXDNavjge5+INr61gQ==
 
 type-fest@^0.13.1:
   version "0.13.1"
